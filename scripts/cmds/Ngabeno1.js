@@ -1,13 +1,13 @@
-const axios = require('axios');
++cmd install david.js const axios = require('axios');
 
 // Define the fonts mapping
 const fonts = {
-    a: "𝐚", b: "𝐛", c: "𝐜", d: "𝐝", e: "𝐞", f: "𝐟", g: "𝐠", h: "𝐡", i: "𝐢",
-    j: "𝐣", k: "𝐤", l: "𝐥", m: "𝐦", n: "𝐧", o: "𝐨", p: "𝐩", q: "𝐪", r: "𝐫",
-    s: "𝐬", t: "𝐭", u: "𝐮", v: "𝐯", w: "𝐰", x: "𝐱", y: "y", z: "𝐳",
-    A: "𝐀", B: "𝐁", C: "𝐂", D: "𝐃", E: "𝐄", F: "𝐅", G: "𝐆", H: "𝐇", I: "𝐈",
-    J: "𝐉", K: "𝐊", L: "𝐋", M: "𝐌", N: "𝐍", O: "𝐎", P: "𝐏", Q: "𝐐", R: "𝐑",
-    S: "𝐒", T: "𝐓", U: "𝐔", V: "𝐕", W: "𝐖", X: "𝐗", Y: "𝐘", Z: "𝐙",
+    a: "𝕒", b: "𝕓", c: "𝕔", d: "𝕕", e: "𝕖", f: "𝕗", g: "𝕘", h: "𝕙", i: "𝕚",
+    j: "𝕛", k: "𝕜", l: "𝕝", m: "𝕞", n: "𝕟", o: "𝕠", p: "𝕡", q: "𝕢", r: "𝕣",
+    s: "𝕤", t: "𝕥", u: "𝕦", v: "𝕧", w: "𝕨", x: "𝕩", y: "𝕪", z: "𝕫",
+    A: "𝑨", B: "𝑩", C: "𝑪", D: "𝑫", E: "𝑬", F: "𝑭", G: "𝑮", H: "𝑯", I: "𝑰",
+    J: "𝑱", K: "𝑲", L: "𝑳", M: "𝑴", N: "𝑵", O: "𝑶", P: "𝑷", Q: "𝑸", R: "𝑹",
+    S: "𝑺", T: "𝑻", U: "𝑼", V: "𝑽", W: "𝑾", X: "𝑿", Y: "𝒀", Z: "𝒁",
 };
 
 async function fetchFromAI(url, params) {
@@ -28,7 +28,7 @@ async function getAIResponse(input, userId, messageID) {
         { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
     ];
 
-    let response = "𝗕𝗼𝗻𝗷𝗼𝘂𝗿! 𝗝𝗲 𝘀𝘂𝗶𝘀 𝗹à 𝗽𝗼𝘂𝗿 𝘁'𝗮𝗶𝗱𝗲𝗿 𝗲𝘁 𝗿é𝗽𝗼𝗻𝗱𝗿𝗲 à 𝘁𝗲𝘀 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀. 𝗡'𝗵é𝘀𝗶𝘁𝗲 𝗽𝗮𝘀 à 𝗺𝗲 𝗱𝗲𝗺𝗮𝗻𝗱𝗲𝗿 𝗰𝗲 𝗾𝘂𝗲 𝘁𝘂 𝘃𝗲𝘂𝘅!....🦅🍀\nSi tu veux une version plus décontracté de moi appelle moi Ghost...🍀";
+    let response = " ✰.. 𝘚𝘢𝘭𝘶𝘵 👋 𝘦𝘯 𝘲𝘶𝘰𝘪 𝘱𝘶𝘪𝘴-𝘫𝘦 𝘷𝘰𝘶𝘴 𝘢𝘪𝘥𝘦𝘻 ?? .. écrit+botgc pour rejoindre mon groupe ✰";
     let currentIndex = 0;
 
     for (let i = 0; i < services.length; i++) {
@@ -54,8 +54,9 @@ module.exports = {
         name: 'ngabeno',
         author: 'aesther',
         role: 0,
-        category: 'ai',
-        shortDescription: 'ai to ask anything',
+      
+category:'david',
+        shortDescription: 'david pas to ask anything',
     },
     onStart: async function ({ api, event, args }) {
         const input = args.join(' ').trim();
@@ -65,15 +66,15 @@ module.exports = {
         }
 
         const { response, messageID } = await getAIResponse(input, event.senderID, event.messageID);
-        api.sendMessage(`✰... David 𝐩𝐫𝐨𝐜𝐞̀𝐝𝐞 𝐚 𝐯𝐨𝐭𝐫𝐞 𝐫𝐞𝐪𝐮𝐞̂𝐭𝐞...✰`, event.threadID, messageID);
+        api.sendMessage(`✰...𝔻𝕒𝕧𝕚𝕕  𝐩𝐫𝐨𝐜𝐞̀𝐝𝐞 𝐚 𝐯𝐨𝐭𝐫𝐞 𝐫𝐞𝐪𝐮𝐞̂𝐭𝐞...✰`, event.threadID, messageID);
     },
     onChat: async function ({ event, message }) {
         const messageContent = event.body.trim().toLowerCase();
-        if (messageContent.startsWith("aigle")) {
-            const input = messageContent.replace(/^aigle\s*/, "").trim();
+        if (messageContent.startsWith("ngabeno")) {
+            const input = messageContent.replace(/^ai\s*/, "").trim();
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
-            const formattedResponse = ` ✿❯─-───🦅───-─❮✿\n𝐉'𝐞𝐬𝐩𝐞̀𝐫𝐞 𝐪𝐮𝐞 𝐜𝐞𝐭𝐭𝐞 𝐫𝐞́𝐩𝐨𝐧𝐬𝐞\n 𝐭𝐞 𝐬𝐚𝐭𝐢𝐬𝐟𝐚𝐢𝐭\n✿─-───🦅───-─✿\n✿─❮${response}🦅❯─✿\n✿─-───🦅───-─✿\n𝐌𝐞𝐫𝐜𝐢 𝐝'𝐚𝐯𝐨𝐢𝐫 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐞́\n✿❯─-───🦅───-─❮✿`;
+            const formattedResponse = ` 🦅..𝔻𝕒𝕧𝕚𝕕 .🦅 :\n━━━━━━━━━━━━━━━━\n${response} 🦅`;
             message.reply(formattedResponse, messageID);
         }
     }
