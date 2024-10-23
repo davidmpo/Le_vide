@@ -1,4 +1,4 @@
-# index.js
+index.js# index.js
 Goat.newVersionDetected=You are using version %1, the latest version is %2. Please update to use the bot better by typing into the console/cmd command: %3
 Goat.autoRestart1=Bot will auto restart in %1
 Goat.autoRestart2=Bot will auto restart by cron job: %1
@@ -92,17 +92,17 @@ handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the data
 handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\n» Time: %2\n» User ID: %3
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
-handlerEvents.onlyAdminBot=🤦 |𝐓'𝐞𝐬 𝐭𝐫𝐨𝐩 𝐟𝐚𝐢𝐛𝐥𝐞 𝐩𝐨𝐮𝐫 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐫 𝐜𝐞𝐭𝐭𝐞 𝐜𝐦𝐝, 𝐯𝐚 𝐝𝐨𝐫𝐦𝐢𝐫 𝐜'𝐞𝐬𝐭 𝐦𝐢𝐞𝐮𝐱 |🤦
-handlerEvents.commandNotFound=📝| 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐝𝐚𝐧𝐬 𝐦𝐚 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐦𝐝 𝐬𝐢 𝐭𝐮 𝐚𝐬 𝐥𝐚 𝐜𝐦𝐝 é𝐜𝐫𝐢𝐭 𝐜𝐚𝐥𝐥𝐚𝐝 𝐩𝐨𝐮𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭𝐞 𝐦𝐞𝐬 𝐬𝐮𝐩𝐞𝐫𝐢𝐞𝐮𝐱\n═══════════════════════
-handlerEvents.commandNotFound2=(／_^)／●𝐌𝐘 𝐂𝐑𝐄𝐀𝐓𝐎𝐑●＼(^_＼)\n\n➪𝐍𝐀𝐌𝐄:〆ᏖᏂᏋ ᏉᎧᎥᎴ\\nn➪𝐋𝐈𝐍𝐊 𝐅𝐁 ☟\n✰☞ https://www.facebook.com/100084918384589 ☜✰\n═════════════\n(´◉◞౪◟◉‵)𝐏𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐦𝐝 é𝐜𝐫𝐢𝐯𝐞𝐳 %𝐡𝐞𝐥𝐩\n━━━━━━━━━━━━━━━━━\n\𝐧⊂(◎(ｴ)◎)⊃𝐬𝐢 𝐯𝐨𝐮𝐬 𝐚𝐯𝐞𝐳 𝐮𝐧 𝐩𝐫𝐨𝐛𝐥è𝐦𝐞 𝐚𝐯𝐞𝐜 𝐥𝐞 𝐛𝐨𝐭, 𝐜𝐨𝐧𝐭𝐚𝐜𝐭𝐞𝐳 𝐦𝐞𝐬 𝐬𝐮𝐩𝐞𝐫𝐢𝐞𝐮𝐫𝐬 𝐚𝐯𝐞𝐜 𝐥𝐚 𝐜𝐦𝐝 %𝐜𝐚𝐥𝐥𝐚𝐝 + 𝐯𝐨𝐭𝐫𝐞 𝐩𝐫𝐨𝐛𝐥è𝐦𝐞\n`·.¸¸.·´¯`·.¸><(((º>\n`·.¸¸.·´¯`·.¸><(((º>
-handlerEvents.commandSyntaxError=𝐋𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐪𝐮𝐞 𝐯𝐨𝐮𝐬 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐳 𝐚 𝐮𝐧𝐞 𝐬𝐲𝐧𝐭𝐚𝐱𝐞 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐞, 𝐯𝐞𝐮𝐢𝐥𝐥𝐞𝐳 𝐬𝐚𝐢𝐬𝐢𝐫 ❥%1𝐡𝐞𝐥𝐩 ❥%2 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐞𝐬 𝐝é𝐭𝐚𝐢𝐥𝐬 de 𝐥'𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐭𝐢𝐨𝐧 𝐝𝐞 𝐜𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞
-handlerEvents.onlyAdmin=🤪|❥ 𝐒𝐞𝐮𝐥 𝐥𝐞𝐬 𝐚𝐝𝐦𝐢𝐧𝐬 𝐝𝐮 𝐠𝐫𝐨𝐮𝐩𝐞 𝐩𝐞𝐮𝐯𝐞𝐧𝐭 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐫 𝐜𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 ☞%1☜ \n━━━━━✰𝐓𝐇𝐄 𝐕𝐎𝐈𝐃✰━━━━━
-handlerEvents.onlyAdminToUseOnReply=❌|𝚂𝚎𝚞𝚕 𝚕𝚎𝚜 𝚊𝚍𝚖𝚒𝚗𝚜 𝚍𝚞 𝚐𝚛𝚘𝚞𝚙𝚎 𝚙𝚎𝚞𝚟𝚎𝚗𝚝 𝚞𝚝𝚒𝚕𝚒𝚜𝚎𝚛 𝚕𝚊 𝚏𝚘𝚗𝚌𝚝𝚒𝚘𝚗 𝚍𝚎 𝚌𝚎𝚝𝚝𝚎 𝚌𝚖𝚍 ☞%1☜\n`·.¸¸.·´¯`·.¸><(((º>\n`·.¸¸.·´¯`·.¸><(((º>
-handlerEvents.onlyAdminToUseOnReaction=❌ | Ⓞ︎Ⓝ︎Ⓛ︎Ⓨ︎ Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎ Ⓐ︎Ⓓ︎Ⓜ︎Ⓘ︎Ⓝ︎Ⓘ︎Ⓢ︎Ⓣ︎Ⓡ︎Ⓐ︎Ⓣ︎Ⓞ︎Ⓡ︎Ⓢ︎ Ⓒ︎Ⓐ︎Ⓝ︎ Ⓤ︎Ⓢ︎Ⓔ︎ Ⓣ︎Ⓗ︎Ⓔ︎ Ⓡ︎Ⓔ︎Ⓐ︎Ⓒ︎Ⓣ︎Ⓘ︎Ⓞ︎Ⓝ︎ Ⓕ︎Ⓤ︎Ⓝ︎Ⓒ︎Ⓣ︎Ⓘ︎Ⓞ︎Ⓝ︎ Ⓞ︎Ⓕ︎ Ⓣ︎Ⓗ︎Ⓔ︎ Ⓒ︎Ⓞ︎Ⓜ︎Ⓜ︎Ⓐ︎Ⓝ︎Ⓓ︎ ❥%1ꨄ\n══════✞𝐓𝐇𝐄 𝐕𝐎𝐈𝐃✞══════
-handlerEvents.onlyAdminBot2=😐 | 𝐒𝐞𝐮𝐥 ☞〆ᏖᏂᏋ ᏉᎧᎥᎴ☜𝐮𝐭𝐢𝐥𝐢𝐬𝐞 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 ✞%1✞\n`·.¸¸.·´¯`·.¸><(((º>\n`·.¸¸.·´¯`·.¸><(((º>
-handlerEvents.onlyAdminBot2ToUseOnReply=🙅|𝑆𝑒𝑢𝑙 𝑙'𝑎𝑑𝑚𝑖𝑛𝑖𝑠𝑡𝑟𝑎𝑡𝑒𝑢𝑟 𝑑𝑢 𝑏𝑜𝑡 𝑢𝑡𝑖𝑙𝑖𝑠𝑒𝑟 𝑙𝑎 𝑓𝑜𝑛𝑐𝑡𝑖𝑜𝑛 𝑑𝑒 𝑟é𝑝𝑜𝑛𝑠𝑒 𝑑𝑒 𝑙𝑎 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒 ✞%1✞\n══════✰𝐓𝐇𝐄 𝐕𝐎𝐈𝐃✰══════
-handlerEvents.onlyAdminBot2ToUseOnReaction=❌| 𝐎𝐧𝐥𝐲 𝐛𝐨𝐭'𝐬 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 ❥%1ꨄ
-handlerEvents.waitingForCommand=💁| 𝐒𝐨𝐢𝐬 𝐜𝐚𝐥𝐦𝐞 𝐦𝐨𝐧/𝐦𝐚 𝐠𝐫𝐚𝐧𝐝(𝐞) 𝐚𝐭𝐭𝐞𝐧𝐝𝐬 𝐣𝐮𝐬𝐭𝐞 %1𝐬 𝐩𝐨𝐮𝐫 𝐮𝐭𝐢𝐥𝐢𝐬𝐞𝐫 𝐞𝐧𝐭𝐫𝐞𝐫 𝐝𝐚𝐧𝐬 𝐥𝐞 𝐯𝐢𝐝𝐞\n\n`·.¸¸.·´¯`·.¸><(((º>\n`·.¸¸.·´¯`·.¸><(((º>
+handlerEvents.onlyAdminBot=🦅 | 𝑺𝒆𝒖𝒍 David mpongo 𝒖𝒕𝒊𝒍𝒊𝒔𝒆 𝒍𝒆 𝑩𝒐𝒕\n________________\n❥David mpongo๖ۣ•҉★
+handlerEvents.commandNotFound=📝| 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 dans ma liste de cmd si tu as la cmd écrit callad pour contact l'admin🦅+help\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏\n❥David๖ۣ•҉★
+handlerEvents.commandNotFound2=❦𝐦𝐨𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐮𝐫❦ \n_________________\n David mpongo \n___________________\n𝘓𝘐𝘕𝘒'𝘚 Facebook\n___________________\n☆《 https://www.facebook.com/profile.php?id=100092277325670 》☆\n_________________\n❥David•҉★ 
+handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
+handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n__________________ \n ❥David๖ۣ•҉★
+handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
+handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
+handlerEvents.onlyAdminBot2=🦅 | 𝐒𝐞𝐮𝐥 ★❧David mpongo 🦅𝐮𝐭𝐢𝐥𝐢𝐬𝐞 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 💧%1💧
+handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
+handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
+handlerEvents.waitingForCommand=💁| 𝐒𝐨𝐢𝐬 𝐩𝐚𝐭𝐢𝐞𝐧𝐭(𝐞) 𝐛𝐨𝐧 𝐬𝐚𝐧𝐠 %1s \n__________________\n David ๖ۣ•҉★
 handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
 handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
